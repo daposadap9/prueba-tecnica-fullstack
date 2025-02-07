@@ -38,7 +38,7 @@ export const authOptions: NextAuthOptions = {
   session: {
     strategy: 'jwt',
     // Puedes agregar un maxAge, por ejemplo:
-    // maxAge: 30 * 24 * 60 * 60, // 30 días
+    // maxAge: 30 * 24 * 60 * 60, // 30 díass
   },
   secret: process.env.NEXTAUTH_SECRET,
 };
