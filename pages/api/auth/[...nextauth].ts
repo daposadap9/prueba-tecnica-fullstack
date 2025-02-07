@@ -40,7 +40,7 @@ export const authOptions: NextAuthOptions = {
     // Puedes agregar un maxAge, por ejemplo:
     // maxAge: 30 * 24 * 60 * 60, // 30 días
   },
-  secret: process.env.AUTH0_CLIENT_SECRET,
+  secret: process.env.NEXTAUTH_SECRET,
 };
 
 export default NextAuth(authOptions);
